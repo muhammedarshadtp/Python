@@ -1,5 +1,6 @@
 # Python
-# basic under stnting for Python and print Hello world 
+# basic understanting for Python and print Hello world 
 # List in Python
-# Tuples
+# Tuples and Set
 # Dictionary
+# User input in python
