@@ -104,7 +104,8 @@
 # a=input('enter the character')[1]
 # print(a)
 
-# If elif Else
+#         If elif Else
+
 
 # a=3
 # if a>5:
@@ -112,11 +113,43 @@
 # else:
 #     print("this is smallest")    
 
-age=24
+# age=24
 
-if age<18:
-    print("your are a minor")
-elif age<25:
-    print("your are a adult")    
-else:
-    print("your are a senior citizen")    
+# if age<18:
+#     print("your are a minor")
+# elif age<25:
+#     print("your are a adult")    
+# else:
+#     print("your are a senior citizen")    
+
+
+#        while loop in python
+
+# a=1
+
+# while a<=10:
+#     print(a)
+#     a=a+1
+
+
+# i=1
+# total = 0
+
+# while i<=5:
+#   total+=i
+#   i+=1
+
+# print("sum:",total)
+
+# i=1
+# num=4
+
+# while i<=10:
+#     print(i,"x",num, "=",num*i)
+#     i+=1
+
+# user_input = ""
+
+# while user_input != "exit":
+#     user_input = input("Type something (or 'exit' to stop): ")
+
