@@ -153,3 +153,14 @@
 # while user_input != "exit":
 #     user_input = input("Type something (or 'exit' to stop): ")
 
+#        for loop in python
+
+# x=[1,4,78,3,6,8,9,0,]
+# for i in range(10,15,1):
+#     print(i)
+
+# for i in x:
+#     if i%2==0:
+#         print("this is an even number:",i)
+#     else:
+#         print("this is an odd number:",i)    
