@@ -100,3 +100,23 @@
 # b=int(input("enter the 2st number"))
 # z= a-b
 # print(z)
+
+# a=input('enter the character')[1]
+# print(a)
+
+# If elif Else
+
+# a=3
+# if a>5:
+#     print("this is biggest")
+# else:
+#     print("this is smallest")    
+
+age=24
+
+if age<18:
+    print("your are a minor")
+elif age<25:
+    print("your are a adult")    
+else:
+    print("your are a senior citizen")    
