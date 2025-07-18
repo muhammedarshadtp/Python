@@ -193,9 +193,45 @@
 # -------------- Pass ------------
 
 
-for i in range(1,10):
-    if i%2 != 0:
-        pass
-    else:
-        print(i)
-print("byee")       
+# for i in range(1,10):
+#     if i%2 != 0:
+#         pass
+#     else:
+#         print(i)
+# print("byee") 
+# 
+# --------------- Pattern Printing in Python  --------------    
+
+# for i in range(5):
+#     for j in range(5):
+#         print("#",end="")
+#     print() 
+
+#     output=  
+#      #####
+#      #####
+#      #####
+#      #####
+#      ##### 
+
+# for i in range(5):
+#     for j in range(i+1):
+#         print("#",end="")
+#     print()    
+
+#     output=
+#     #
+#     ##
+#     ###
+#     ####
+
+# for i in range(5):
+#     for j in range(5-i):
+#         print("#",end="")
+#     print()    
+
+#     #####
+#     ####
+#     ###
+#     ##
+#     #
