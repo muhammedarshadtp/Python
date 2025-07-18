@@ -16,12 +16,12 @@
 # del fruit[1:]
 # print(fruit)
 
-#        Tuples
+#  --------------   Tuples  -----------------
 
 # num = ("apple")
 # print(num)
 
-#     Dictionary
+#  -------------- Dictionary  --------------
 
 
 # person = {
@@ -31,21 +31,21 @@
 # }
 # print(person)
 
-#      # Access Value
+#   ---------- Access Value  -------------
 
 # print(person["city"])
 
-#       # change value
+# -------------- change value ------------------
 
 # person["age"]=26
 # print(person.get("age"))
 
-#     # add key-value pair
+#   -------------- add key-value pair  ----------------
 
 # person["email"] = "arshad@gmail.com"
 # print(person.get("email"))
 
-#     # remove key
+#   -------------- remove key  ----------------
 
 # person.pop("city")
 # print(person)
@@ -55,7 +55,7 @@
 # if "name" in person:
 #  print("yes")
 
-#     Dictionary Methods
+#    -------------- Dictionary Methods ------------
 
 # print(person.get("age"))
 # print(person.keys())
@@ -64,7 +64,7 @@
 # print(person.pop("age"))
 
 
-#       Zip()
+#    ------------ Zip()  ------------
 
 # key = ["name","age","place"]
 # value=["arshad",24,"ulikkal"]
@@ -72,7 +72,7 @@
 # zipped=dict(zip(key,value))
 # print(zipped)
 
-#      import math 
+#     ------------- import math ------------
 
 # a= math.sqrt(23)
 # print(a)
@@ -95,7 +95,8 @@
 # a,b=b,a
 # print(a)
 # print(b)
-#       User input in python 
+#       -----------User input in python --------------
+
 # a=int(input("enter the 1st number"))
 # b=int(input("enter the 2st number"))
 # z= a-b
@@ -104,7 +105,7 @@
 # a=input('enter the character')[1]
 # print(a)
 
-#         If elif Else
+#    -------------- If elif Else  ----------
 
 
 # a=3
@@ -123,7 +124,7 @@
 #     print("your are a senior citizen")    
 
 
-#        while loop in python
+#     ----------   while loop in python -------------
 
 # a=1
 
@@ -153,7 +154,7 @@
 # while user_input != "exit":
 #     user_input = input("Type something (or 'exit' to stop): ")
 
-#        for loop in python
+#       ---------- for loop in python ------------
 
 # x=[1,4,78,3,6,8,9,0,]
 # for i in range(10,15,1):
@@ -164,3 +165,20 @@
 #         print("this is an even number:",i)
 #     else:
 #         print("this is an odd number:",i)    
+
+# ---------------- Break ---------------
+
+# av=5
+
+# x=int(input("how many item do you want?"))
+
+# i=1
+
+# while i<=x:
+
+#     if i >av:
+#         print("out of item")
+#         break
+#     print("Hey items")
+#     i+=1
+# print("byee")

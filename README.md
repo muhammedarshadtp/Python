@@ -7,3 +7,5 @@
 # If Elif Else statement in Python
 # While loop in python
 # For loop in python
+# Break,continue and pass
+
