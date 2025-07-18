@@ -185,7 +185,17 @@
 
 # ----------- Continue ----------
 
+# for i in range(1,10):
+#     if i%3==0:
+#         continue
+#     print(i)
+
+# -------------- Pass ------------
+
+
 for i in range(1,10):
-    if i%3==0:
-        continue
-    print(i)
+    if i%2 != 0:
+        pass
+    else:
+        print(i)
+print("byee")       
