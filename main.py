@@ -207,7 +207,6 @@
 #         print("#",end="")
 #     print() 
 
-#     output=  
 #      #####
 #      #####
 #      #####
@@ -219,7 +218,6 @@
 #         print("#",end="")
 #     print()    
 
-#     output=
 #     #
 #     ##
 #     ###
@@ -235,3 +233,19 @@
 #     ###
 #     ##
 #     #
+
+# rows=5
+
+# for i in range(1,rows + 1):
+#     space=rows-i
+#     star=2*i-1
+#     print(" " * space + "*" * star)
+
+num = int(input("enter a number "))
+
+for i in range(2,num):
+    if num % i == 0:
+        print("not prime number")
+        break
+else:
+    print("prime number")    
