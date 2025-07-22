@@ -241,11 +241,56 @@
 #     star=2*i-1
 #     print(" " * space + "*" * star)
 
-num = int(input("enter a number "))
 
-for i in range(2,num):
-    if num % i == 0:
-        print("not prime number")
-        break
-else:
-    print("prime number")    
+# -----------Prime number---------
+
+# num = int(input("enter a number "))
+
+# for i in range(2,num):
+#     if num % i == 0:
+#         print("not prime number")
+#         break
+# else:
+#     print("prime number")    
+
+# x=123
+
+
+# if str(x)==str(x)[::-1]:
+#     print("true")
+# else:
+#     print("false")
+
+
+# --------------- Array in Python-----------------
+
+from array import *
+
+# val=array("i",[2,4,6,8,9])
+# print(val)
+
+# newarry=array(val.typecode,(a for a in val))
+
+# -------using for loop
+
+# for e in newarry:
+#     print(e)
+
+# -------using while loop
+# i=0
+# while i<len(newarry):
+#     print(newarry[i])
+#     i+=1
+
+#-----user input using array in python-------
+
+
+arr=array("i",[])
+
+n=int(input("enter the length of the array"))
+
+for i in range(n):
+    x=int(input("enter the value"))
+    arr.append(x)
+
+print(arr)

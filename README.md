@@ -9,3 +9,6 @@
 # For loop in python
 # Break,continue and pass
 # Pattern Printing in Python  
+# prime number in python
+# Array in python
+
