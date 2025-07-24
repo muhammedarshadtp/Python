@@ -21,80 +21,6 @@
 # num = ("apple")
 # print(num)
 
-#  -------------- Dictionary  --------------
-
-
-# person = {
-#     "name":"Arshad",
-#     "age":24,
-#     "city":"Kannur"
-# }
-# print(person)
-
-#   ---------- Access Value  -------------
-
-# print(person["city"])
-
-# -------------- change value ------------------
-
-# person["age"]=26
-# print(person.get("age"))
-
-#   -------------- add key-value pair  ----------------
-
-# person["email"] = "arshad@gmail.com"
-# print(person.get("email"))
-
-#   -------------- remove key  ----------------
-
-# person.pop("city")
-# print(person)
-
-#     #check if check key Exits
-
-# if "name" in person:
-#  print("yes")
-
-#    -------------- Dictionary Methods ------------
-
-# print(person.get("age"))
-# print(person.keys())
-# print(person.values())
-# print(person.items())
-# print(person.pop("age"))
-
-
-#    ------------ Zip()  ------------
-
-# key = ["name","age","place"]
-# value=["arshad",24,"ulikkal"]
-
-# zipped=dict(zip(key,value))
-# print(zipped)
-
-#     ------------- import math ------------
-
-# a= math.sqrt(23)
-# print(a)
-
-# a=5
-# b=6
-
-# print(a)
-# print(b)
-
-# temp=a
-# a=b
-# b=temp
-# print(a)
-# print(b)
-
-# a=a+b
-# b=a-b
-# a=a-b
-# a,b=b,a
-# print(a)
-# print(b)
 #       -----------User input in python --------------
 
 # a=int(input("enter the 1st number"))
@@ -199,48 +125,7 @@
 #     else:
 #         print(i)
 # print("byee") 
-# 
-# --------------- Pattern Printing in Python  --------------    
-
-# for i in range(5):
-#     for j in range(5):
-#         print("#",end="")
-#     print() 
-
-#      #####
-#      #####
-#      #####
-#      #####
-#      ##### 
-
-# for i in range(5):
-#     for j in range(i+1):
-#         print("#",end="")
-#     print()    
-
-#     #
-#     ##
-#     ###
-#     ####
-
-# for i in range(5):
-#     for j in range(5-i):
-#         print("#",end="")
-#     print()    
-
-#     #####
-#     ####
-#     ###
-#     ##
-#     #
-
-# rows=5
-
-# for i in range(1,rows + 1):
-#     space=rows-i
-#     star=2*i-1
-#     print(" " * space + "*" * star)
-
+#
 
 # -----------Prime number---------
 
@@ -260,37 +145,3 @@
 #     print("true")
 # else:
 #     print("false")
-
-
-# --------------- Array in Python-----------------
-
-from array import *
-
-# val=array("i",[2,4,6,8,9])
-# print(val)
-
-# newarry=array(val.typecode,(a for a in val))
-
-# -------using for loop
-
-# for e in newarry:
-#     print(e)
-
-# -------using while loop
-# i=0
-# while i<len(newarry):
-#     print(newarry[i])
-#     i+=1
-
-#-----user input using array in python-------
-
-
-arr=array("i",[])
-
-n=int(input("enter the length of the array"))
-
-for i in range(n):
-    x=int(input("enter the value"))
-    arr.append(x)
-
-print(arr)
