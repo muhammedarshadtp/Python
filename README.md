@@ -11,5 +11,10 @@
 # Pattern Printing in Python  
 # prime number in python
 # Array in python
-# Function in PYthon
+# Function in Python
+# Fibanacci in Python
+# Factorial in python
+# Recurrsion in python
+
+
 
