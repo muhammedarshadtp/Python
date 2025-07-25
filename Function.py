@@ -36,3 +36,4 @@ def count(lust):
 
 even,odd=count(lust)
 print("even: {}, odd:{}".format(even,odd))
+

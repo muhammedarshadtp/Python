@@ -15,6 +15,8 @@
 # Fibanacci in Python
 # Factorial in python
 # Recurrsion in python
+# Anonymous Functions | Lambda in python
+# Filter,map,Reduce
 
 
 
