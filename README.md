@@ -17,6 +17,8 @@
 # Recurrsion in python
 # Anonymous Functions | Lambda in python
 # Filter,map,Reduce
+# Decorators in python
+# modules in python
 
 
 
