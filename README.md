@@ -20,5 +20,14 @@
 # Decorators in python
 # modules in python
 
+## OOPs In Python
+  # class
+  # Object
+  ## Type of variables
+  # Instance-Variable
+  # Class-Variable
+  ## Type of Methods
+  # instance Method
+
 
 
