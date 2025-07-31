@@ -28,6 +28,17 @@
   # Class-Variable
   ## Type of Methods
   # instance Method
+  # class Method
+  # static Method
+  ## Inheritance
+  # Single Level
+  # MultiLevel 
+  # Multiple 
+  # Hierarchical
+  # Hybrid
+  
+
+  
 
 
 
