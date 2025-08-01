@@ -20,23 +20,27 @@
 # Decorators in python
 # modules in python
 
-## OOPs In Python
-  # class
-  # Object
-  ## Type of variables
-  # Instance-Variable
-  # Class-Variable
-  ## Type of Methods
-  # instance Method
-  # class Method
-  # static Method
-  ## Inheritance
-  # Single Level
-  # MultiLevel 
-  # Multiple 
-  # Hierarchical
-  # Hybrid
-  
+# OOPs In Python
+  ## class
+  ## Object
+  # Type of variables
+  ## Instance-Variable
+  ## Class-Variable
+  # Type of Methods
+  ## instance Method
+  ## class Method
+  ## static Method
+  # Inheritance
+  ## Single Level
+  ## MultiLevel 
+  ## Multiple 
+  ## Hierarchical
+  ## Hybrid
+  # ConstractorInInheritance
+  ## Child has no __init__()
+  ## child has its own __init__()
+  ## super().__init__()
+
 
   
 
