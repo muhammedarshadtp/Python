@@ -138,7 +138,7 @@
 # else:
 #     print("prime number")    
 
-# x=123
+# x=121
 
 
 # if str(x)==str(x)[::-1]:
