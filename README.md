@@ -40,6 +40,13 @@
   ## Child has no __init__()
   ## child has its own __init__()
   ## super().__init__()
+  # Polymorphism 
+  ## Duck typing
+  ## Method overloading
+  ## Method overriding
+  #  Abstraction
+  ## Abstract Class and Abstract Method 
+  
 
 
   
